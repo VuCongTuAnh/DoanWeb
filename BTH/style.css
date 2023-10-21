@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 18px Arial, Helvetica, sans-serif; /*phông chữ*/
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.menubar{
+    background-color: #43B14B;
+    padding: 18px 0;
+}
+.menubar > ul{
+    display: flex; /*nằm ngang*/
+    justify-content: space-between; /*cach đều*/
+
+}
+.menubar > ul > li > a{
+    margin-right: 15px;
+    font-size: 20px;
+    color: white;
+}
+nav > ul > li:nth-child(1):hover a,  li:nth-child(2):hover a, li:nth-child(3):hover a, li:nth-child(4):hover a, li:nth-child(5):hover a, li:nth-child(6):hover a{
+    color: #FFD400;
+}
+.TieuDe{
+    text-align: center;
+    color: rgb(58, 58, 248);
+    font-size: 22px;
+}
+.new{
+    color: red;
+     padding: 30px  30px 30px; 
+     font-size: 25px;
+}
+.wp-content{
+    padding-left: 30px;
+    font-size: 20px;
+    
+}
+

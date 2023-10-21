@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 14px/18px Arial, Helvetica, sans-serif; /*phông chữ*/
+}
+ul{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.menu-one-text{
+    max-width: 1000px;
+    margin: 10px 10px;
+    font-size: 15px;
+    margin: 10px 150px;
+
+}
+.menu-one ul{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.menu-one-text :hover{
+    color: rgb(0, 223, 223);
+}
+.menu-one img{
+    height: 30px;
+    width: 150px;
+    margin-top: -6px;
+    
+}

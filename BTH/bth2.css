@@ -1,0 +1,22 @@
+
+input{
+    border: 1px solid blue
+    
+}
+
+.td-0{
+    text-align: center;
+}
+
+.td-2{
+    width: 300px;
+    padding: 10px;
+}
+.td-3{
+    text-align: center;
+    height: 40px;
+}
+button{
+    border: 1px solid red
+    
+}
